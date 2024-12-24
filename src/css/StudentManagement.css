@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .student-management-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-management-container h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #23a2f6;
+    padding-bottom: 5px;
+  }
+  
+  .student-management-container div {
+    margin-bottom: 30px;
+  }
+  
+  .student-management-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  .student-management-container input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .student-management-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #23a2f6;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .student-management-container button:hover {
+    background-color: #1845ad;
+  }
+  
+  .student-management-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .student-management-container ul li {
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .student-management-container ul li:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+  }
+  

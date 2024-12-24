@@ -1,0 +1,74 @@
+/* Style global de la page de connexion */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  .login-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .login-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  .login-card p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .login-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-card input {
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #2c3e50;
+    transition: border-color 0.3s;
+  }
+  
+  .login-card input:focus {
+    border-color: #1abc9c;
+    outline: none;
+  }
+  
+  .login-card button {
+    background: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-card button:hover {
+    background: #16a085;
+  }
+  
+  .login-card button:active {
+    background: #149174;
+    transform: scale(0.98);
+  }
+  

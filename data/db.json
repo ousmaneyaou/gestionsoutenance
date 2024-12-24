@@ -1,0 +1,86 @@
+{
+  "etudiants": [
+    {
+      "id": "bfc7",
+      "matricule": "70727",
+      "nom": "Ousmane",
+      "datedeNaissance": "2024-12-05",
+      "nationalite": "comorienne",
+      "encadreur": "Pr Samba Ndiaye",
+      "filiere": "genie logocoel",
+      "niveau": "master"
+    }
+  ],
+  "soutenance": [
+    {
+      "id": "5ealr",
+      "annee": "2020/2021",
+      "nomEtudiant": "Ibrahim",
+      "presidentJury": "Moussa souley",
+      "assesseur": "Taffa",
+      "heureSoutenance": "14:00",
+      "theme": "Santé animale",
+      "dateSoutenance": "2024-12-10",
+      "montant": "50000",
+      "note": "15",
+      "mention": "Bien"
+    }
+  ],
+  "filiere": [
+    {
+      "id": "pd56h",
+      "name": "MIAGE"
+    },
+    {
+      "id": "7qn2y",
+      "name": "Physique"
+    },
+    {
+      "id": "nzozy",
+      "name": "Maths Informatique"
+    }
+  ],
+  "assesseurs": [
+    {
+      "id": "in397",
+      "name": "Pr Mahamadou Tiado",
+      "phone": "778596661"
+    },
+    {
+      "id": "3pqyo",
+      "name": "Pr Samba Ndiaye",
+      "phone": "778596661"
+    }
+  ],
+  "presidentdejury": [
+    {
+      "id": "aqktx",
+      "name": "Pr Samba Ndiaye",
+      "phone": "778596661"
+    },
+    {
+      "id": "y5748",
+      "name": "Mahamadou",
+      "phone": "778596661"
+    },
+    {
+      "id": "4nyo8",
+      "name": "kenda",
+      "phone": "24568876"
+    }
+  ],
+  "users": [
+    {
+      "id": "4271",
+      "username": "ousmane",
+      "email": "ousmaneyaou00@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c757",
+      "username": "ibrahim",
+      "email": "ib@gmail.com",
+      "password": "12"
+    }
+  ]
+}

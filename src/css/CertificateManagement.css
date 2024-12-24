@@ -1,0 +1,68 @@
+  /* Conteneur principal de la gestion des attestations */
+  .certificate-management-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 5%;
+    margin-left: 27%;
+  }
+  
+  .certificate-management-container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Titre principal */
+  .certificate-management-container h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  /* Liste des étapes */
+  .certificate-management-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: #34495e;
+    text-align: left;
+  }
+  
+  .certificate-management-container ul li {
+    background: #ecf0f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .certificate-management-container ul li:hover {
+    background-color: #dfe6e9;
+  }
+  
+  /* Animation de fadeIn */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .certificate-management-container {
+    animation: fadeIn 1s ease-out;
+  }
+  
