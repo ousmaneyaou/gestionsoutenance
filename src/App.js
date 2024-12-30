@@ -10,7 +10,9 @@ import Register from "./components/Register";
 import StudentList from "./components/StudentList";
 import Filiere from "./components/Filiere";
 import Assesseurs from "./components/Assesseurs";
+import Encadreurs from "./components/Encadreurs";
 import GestionPresidentJury from "./components/GestionPresidentJury";
+import Credit from "./components/Credit";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
                 />
                 <Route path="/filiere" element={<Filiere />} />
                 <Route path="/assesseur" element={<Assesseurs />} />
+                <Route path="/encadreur" element={<Encadreurs />} />
+                <Route path="/credits" element={<Credit />} />
                 <Route path="/gestionjury" element={<GestionPresidentJury />} />
               </Routes>
             </>

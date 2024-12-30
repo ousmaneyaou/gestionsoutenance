@@ -1,0 +1,97 @@
+.credit-management-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .credit-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .credit-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .credit-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .credit-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .credit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .credit-table th,
+  .credit-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+  }
+  
+  .credit-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .credit-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .credit-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .credit-table button {
+    padding: 0.3rem 0.6rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .credit-table button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .credit-table button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .credit-table button:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .credit-table button:last-child:hover {
+    background-color: #c0392b;
+  }
+  

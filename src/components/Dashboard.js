@@ -23,7 +23,7 @@ const Dashboard = () => {
             <Link to="/defense">Soutenances</Link>
           </li>
           <li>
-            <Link to="/mentors">Encadreurs</Link>
+            <Link to="/encadreur">Encadreurs</Link>
           </li>
           <li>
             <Link to="/credits">Crédits</Link>
